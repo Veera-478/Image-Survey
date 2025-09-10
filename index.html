@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Survey</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .main{
+            margin:0 7%;
+        }
+        .header nav{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 1.5rem;
+        }  
+        .img{
+            height: 300px;
+            width: 100%;
+            overflow: hidden;
+            margin-top: 80px;
+
+        }
+        .img img{
+            width: 100%;
+            object-fit: cover;
+            position: relative;
+            top: -50%;
+        }
+        .header nav span{
+            color: rgb(0, 0, 0);
+            font-size: 3rem;
+        }
+        #v{
+            color: rgb(0, 0, 0);
+            
+        }
+        .k{
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            /* margin: 24px 32px; */
+            margin-top: 50px;
+            margin-bottom: 20px;
+        }
+        .veera{
+             flex: 2;
+  color: #555;
+  font-size: 1.08em;
+  line-height: 1.6;
+        }
+        .ram{
+            flex: 1;
+  background: #2196a3;
+  color: #fff;
+  font-size: 1.2em;
+  padding: 28px 20px;
+  border-radius: 4px;
+  margin-left: 24px;
+  font-weight: 500;
+  text-align: center;
+  box-shadow: 0 0 8px rgba(0,0,0,0.04);
+        }
+        h3{
+            margin-top: 20px;
+            color: rgb(38, 183, 240);
+            margin-bottom: 10px;
+        }
+        .para{
+            margin-bottom: 20px;
+        }
+        .options{
+            margin-top:15px ;
+            display: flex;
+            width: 300px;
+            justify-self: start;
+
+            flex-direction: column;
+        }
+        .options img{
+            width: 100%;
+        }
+        .optionss{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+        }
+        hr{
+            height:5px;
+            background-color: skyblue;
+            border-radius: 1px;
+            box-shadow: 0 0 10px lightblue;
+            margin-top:40px;
+        }
+        .intro{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            padding: 10px;
+            color: rgb(38, 183, 240);
+        }
+        .inputbox{
+            /* padding: 10px; */
+            margin: 10px;
+            font-size: 1.7rem;
+        }
+        .text{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size: 1rem;
+            padding: 10px;
+        }
+        .selfintro, .selfintro2{
+            display: flex;
+        }
+        .ii{
+            margin-left: 20px;
+        }
+        .male{
+            font-size: 1.2rem;
+            margin-left: 10px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        .icon{
+            height: 90px;
+            width: 90px;
+        }
+    </style>
+</head>
+<body>
+<div>
+
+    <div class="main">
+        <div class="header">
+            <nav>
+                <span><i class="bi bi-bluesky"></i> Image Survey</span>
+                <button id="v" style="padding: 20px; background-color:#2196a3 ; font-size: 1.3rem; color: white; margin-top: 20px; border-radius: 8px 8px 8px 8px;">Contact Us</button>
+            </nav>
+            <div class="img">
+                <img src="./drive-download-20250828T175933Z-1-001/survey.jpg" alt="">
+            </div>
+            <div class="k">
+            <p class="veera">This survey form HTML template provides answer choices with different images. You can feel free to modify and use it for your data collection projects or websites. All images used in this page are from <strong>Unsplash.</strong> You are not allowed to re-post this template on your template sites as a download zip file. You can put a screenshot and a link back to <strong>templatemo</strong> site. Thank you.</p>
+            <p class="ram">Your Opinion Matters</p>
+        </div>
+        <hr></hr>
+        <h3>QUESTION 1</h3>
+        <p class="para">Fusce feugiat, est dignissim feugiat dapibus, arcu lacus varius dolor, vel auctor odio lectus sed diam. Ut gravida tristique lacus, sed molestie tellus faucibus non."</p>
+        
+        <div  class="optionss">
+            <div class="options">
+                <span><input type="radio"  value="A. Pellentesque quis matus" name="option">A. Pellentesque quis matus</span>
+                <img src="./drive-download-20250828T175933Z-1-001/img-3x2-1.jpg" alt="">
+            </div>
+            <div class="options">
+                <span><input type="radio"  value="A. Pellentesque quis matus" name="option">A. Pellentesque quis matus</span>
+                <img src="./drive-download-20250828T175933Z-1-001/img-3x2-2.jpg" alt="">
+            </div>
+            <div class="options">
+                <span><input type="radio"  value="A. Pellentesque quis matus" name="option">A. Pellentesque quis matus</span>
+                <img src="./drive-download-20250828T175933Z-1-001/img-3x2-3.jpg" alt="">
+            </div>
+            <div class="options">
+                <span><input type="radio"  value="A. Pellentesque quis matus" name="option">A. Pellentesque quis matus</span>
+                <img src="./drive-download-20250828T175933Z-1-001/img-3x2-4.jpg" alt="">
+            </div>
+            <div class="options">
+                <span><input type="radio"  value="A. Pellentesque quis matus" name="option">A. Pellentesque quis matus</span>
+                <img src="./drive-download-20250828T175933Z-1-001/img-3x2-5.jpg" alt="">
+            </div>
+            
+
+        </div>
+
+        <hr></hr>
+        <h3>QUESTION 2</h3>
+        <p class="para">Aliquam blandit eros eget sollicitudin venenatis. Maecenas sagittis dui id neque convallis scelerisque. Nullam lobortis ex nibh, id fringilla arcu varius at. Morbi tincidunt dignissim ante id aliquet."</p>
+        
+        <div  class="optionss">
+            <div class="options">
+                <span><input type="checkbox"  value="A. Pellentesque quis matus" name="option">Option 1</span>
+                <img src="./drive-download-20250828T175933Z-1-001/img-1x1-1.jpg" alt="">
+            </div>
+            <div class="options">
+                <span><input type="radio"  value="A. Pellentesque quis matus" name="option">Option 2</span>
+                <img src="./drive-download-20250828T175933Z-1-001/img-1x1-2.jpg" alt="">
+            </div>
+            <div class="options">
+                <span><input type="radio"  value="A. Pellentesque quis matus" name="option">Option 3</span>
+                <img src="./drive-download-20250828T175933Z-1-001/img-1x1-3.jpg" alt="">
+            </div>
+            <div class="options">
+                <span><input type="radio"  value="A. Pellentesque quis matus" name="option">Option 4</span>
+                <img src="./drive-download-20250828T175933Z-1-001/img-1x1-4.jpg" alt="">
+            </div>
+            <div class="options">
+                <span><input type="radio"  value="A. Pellentesque quis matus" name="option">Option5</span>
+                <img src="./drive-download-20250828T175933Z-1-001/img-1x1-5.jpg" alt="">
+            </div>
+            
+
+        </div>
+
+        <hr></hr>
+        <h3>QUESTION 3</h3>
+        <p class="para">In tincidunt non nisl quis posuere. Praesent justo libero, eleifend at rhoncus a, ultrices non mi. Pellentesque quis metus a nulla commodo consectetur. In ultricies lorem accumsan, euismod tellus egestas.</p>
+        
+        <div  class="optionss">
+            <div class="options">
+                
+                <img src="./drive-download-20250828T175933Z-1-001/img-2x3-1.jpg" alt="">
+                <span><input type="radio"  value="A. Pellentesque quis matus" name="option">Image1</span>
+            </div>
+            <div class="options">
+                
+                <img src="./drive-download-20250828T175933Z-1-001/img-2x3-2.jpg" alt="">
+                <span><input type="radio"  value="A. Pellentesque quis matus" name="option">Image2</span>
+            </div>
+            <div class="options">
+                
+                <img src="./drive-download-20250828T175933Z-1-001/img-2x3-3.jpg" alt="">
+                <span><input type="radio"  value="A. Pellentesque quis matus" name="option">Image3</span>
+            </div>
+            <div class="options">
+                <img src="./drive-download-20250828T175933Z-1-001/img-2x3-4.jpg" alt="">
+                <span><input type="radio"  value="A. Pellentesque quis matus" name="option">Image4</span>
+            </div>
+            <div class="options">
+                
+                <img src="./drive-download-20250828T175933Z-1-001/img-2x3-5.jpg" alt="">
+                <span><input type="radio"  value="A. Pellentesque quis matus" name="option">Image5</span>
+            </div>
+            
+
+        </div>
+
+        <hr></hr>
+        
+            
+
+        </div>
+        <h2 class="intro">Please tell a little bit about yourself</h2>
+        <div class="selfintro">
+           <div class="i">
+             <label for="name" class="text">Your Name</label><br>
+            <input type="text" class="inputbox" id="name">
+           </div>
+           <div class="ii">
+            <br><br>
+            <input type="radio" name="gender" id="male" style="height: 20px; width: 20px; ">
+            <label for="male" class="male">Male</label>
+             <input type="radio" name="gender" id="female" style="height: 20px; width: 20px; margin-left: 20px;">
+            <label for="female" class="male">Female</label>
+           </div>
+           <div class="iii">
+             <label for="addon" class="text" style="margin-left: 10px;">Additional Options</label><br>
+            <textarea name="addon" id="addon" style="margin-top: 10px; margin-left: 20px;"></textarea>
+           </div>
+           </div>
+           <div class="selfintro2">
+            <div class="i">
+                 <label for="name" class="text">Your Email</label><br>
+            <input type="text" class="inputbox" id="name">
+            </div>
+            <div class="iiii" style="margin-top: 30px; margin-left: 20px;">
+                <select name="occ" id="occ" class="text">
+                    <option value="occ" selected>Your Occupation</option>
+                    <option value="occ">Job</option>
+                    <option value="occ">Student</option>
+                    <option value="occ">Farmer</option>
+                </select>
+            </div>
+        </div>
+        
+        
+    </div>
+</div>
+</body>
+</html>
